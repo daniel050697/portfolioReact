@@ -89,3 +89,6 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-bottom: 0.1875rem solid var(--primary-white);
 }
+.test {
+  /**/
+}
