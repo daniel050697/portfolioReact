@@ -1,10 +1,5 @@
 import React from 'react'
 import Image from "react-bootstrap/Image";
-import {
-    CircularProgressbar,
-    CircularProgressbarWithChildren,
-    buildStyles
-  } from "react-circular-progressbar";
 import ProgressBar from 'react-animated-progress-bar';
 import { Card } from 'react-bootstrap';
 import { easeQuadInOut } from "d3-ease";

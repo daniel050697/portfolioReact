@@ -40,17 +40,21 @@
 /*FONT*/
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /************ IMPORTS ***************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 :root {
   --primary-white: #fff;
   --primary-black: #000;
-  --primary-blue: #00bfff;
+  /* --primary-blue: #00bfff;*/
 }
 /************ NAVIGATION BAR ***************/
+nav {
+  z-index: 3;
+}
 .logo {
   width: 10.25rem;
 }
@@ -89,6 +93,322 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-bottom: 0.1875rem solid var(--primary-white);
 }
-.test {
-  /**/
+
+/************ HEADER *************/
+.header-wrapper {
+  position: relative;
+  background: url(background9.jpg) no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
+  font-size: 7rem;
+  background-color: rgba(52, 52, 52, 0.8);
+}
+
+/**************** TYPED TEXT **************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  background-color: rgba(52, 52, 52, 0.8);
+}
+
+/***************** HEADER CONTACT ME BUTTON **************/
+.btn-contact-me {
+  border: 1.5px solid var(--primary-black);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  background-color: rgba(52, 52, 52, 0.8);
+}
+
+.btn-contact-me:hover {
+  text-decoration: none;
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+}
+
+/***************** PARTICLES **************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/***************** ABOUT ME **************/
+.backgroundAboutMe {
+}
+.aboutme {
+  padding-top: 10%;
+}
+.aboutMeTitle {
+  padding-bottom: 1rem;
+  padding-top: 2.625rem;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 4rem;
+  /*color: var(--primary-white);*/
+}
+
+.colDesc {
+  background-color: #ffffff;
+  float: right;
+  border: 5px outset rgba(164, 125, 30, 0.25);
+  border-radius: 20px 20px 20px 20px;
+}
+.profileDesc {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  padding: 20%;
+}
+.profilePic {
+  float: left;
+  border: 5px double rgba(164, 125, 30, 0.25);
+  border-radius: 5px 5px 5px 5px;
+}
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.reactProgressBar {
+  max-width: 30%;
+  height: auto;
+}
+
+/************** SKILLS TEST *********************/
+
+.bodySkills {
+  background: linear-gradient(white, black);
+  height: 95vh;
+  margin-top: 10%;
+}
+.cardSkill {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 3.5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 20px 20px #888888;
+  border: 5px outset rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 5px 5px;
+  z-index: 2;
+}
+
+.backgroundProgress {
+  background-color: #fff;
+}
+
+.progress-bar {
+  background-color: #fff !important;
+}
+
+/********************** SKILLS ******************/
+/* Create four equal columns that floats next to each other */
+.columnSkill {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnSkillTitle {
+  float: left;
+  width: 100%;
+  height: 1rem 0;
+}
+@media screen and (max-width: 900px) {
+  .columnSkillTitle {
+    width: 100%;
+  }
+  .columnSkill {
+    width: 50%;
+  }
+  .bodySkills {
+    background: linear-gradient(white, black);
+    height: 100vh;
+    margin-top: 10%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnSkillTitle {
+    width: 100%;
+  }
+
+  .columnSkill {
+    width: 100%;
+  }
+  .bodySkills {
+    background: linear-gradient(white, black);
+    height: 150vh;
+    margin-top: 10%;
+  }
+  .main-info h1 {
+    color: var(--primary-white);
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-color: rgba(52, 52, 52, 0.8);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .columnSkillTitle {
+    width: 100%;
+  }
+
+  .columnSkill {
+    width: 100%;
+  }
+  .bodySkills {
+    background: linear-gradient(white, black);
+    height: 180vh;
+    margin-top: 10%;
+  }
+  .main-info h1 {
+    color: var(--primary-white);
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-color: rgba(52, 52, 52, 0.8);
+  }
+  .aboutMeTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .columnSkillTitle {
+    width: 100%;
+  }
+
+  .columnSkill {
+    width: 100%;
+  }
+  .bodySkills {
+    background: linear-gradient(white, black);
+    height: 290vh;
+    margin-top: 10%;
+  }
+  .main-info h1 {
+    color: var(--primary-white);
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-color: rgba(52, 52, 52, 0.8);
+  }
+  .aboutMeTitle {
+    font-size: 2rem;
+  }
+}
+
+.smallLogo {
+  width: 5%;
+  height: 1rem 0;
+}
+/* EXPERIENCE */
+marker {
+  font-weight: bold;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.accordian-main {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #3399ff !important;
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px;
+  color: #fff;
+}
+
+.experienceBody {
+  position: relative;
+  background: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 0.95),
+      hsla(0, 0%, 26%, 0.65)
+    ),
+    url(experiencebackground.jpg) no-repeat center center / cover;
+  /*background: linear-gradient(black, #0052cc) !important;
+  background-size: cover; 
+  filter: grayscale(40%);*/
+  padding-bottom: 10%;
+  height: cover;
+}
+
+/* PROJECT */
+.projectBody {
+  position: relative;
+  background: linear-gradient(
+      to top,
+      hsla(0, 0%, 0%, 0.65),
+      hsla(0, 0%, 26%, 1)
+    ),
+    url(projectBackground.jpg) no-repeat center center / cover;
+  padding-bottom: 10%;
+  filter: grayscale(50%);
+  height: cover;
+}
+.projectCard {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projectImage {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.jumbo-style {
+  background-image: linear-gradient(to left, #009fff, #ec2f4b);
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-resize-projectLogo {
+  width: 1em;
+}
+.projectTitle {
+  padding-top: 10% !important;
 }
