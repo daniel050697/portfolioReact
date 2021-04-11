@@ -2,13 +2,18 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Particles from "react-particles-js";
+import ScrollToTop from "react-scroll-to-top";
+import {BrowserRouter as Router, Switch , Route } from "react-router-dom";
+
+/* PAGES */
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/about.component";
-import {BrowserRouter as Router, Switch , Route } from "react-router-dom";
 import Skills from "./components/skills";
 import Experience from "./components/Experience.component";
 import Project from "./components/project";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 /* RANDOM IMPORT */
 import Daniel from "./Profile.jpg";
@@ -32,12 +37,15 @@ function App() {
         </Switch>
     </Router>*/}
     <Router>
+      <ScrollToTop smooth color="#000"/>
       <Navbar fixed="top"/>
       <HeaderPage />
       <About />
       <AdvanceSkills />
       <Experience />
       <Project />
+      <Contact />
+      <Footer />
     </Router>
     </>
   );

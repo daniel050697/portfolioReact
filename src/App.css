@@ -362,7 +362,8 @@ marker {
   background: linear-gradient(
       to bottom,
       hsla(0, 0%, 0%, 0.95),
-      hsla(0, 0%, 26%, 0.65)
+      hsla(0, 0%, 26%, 0.65),
+      hsla(0, 0%, 0%, 0.95)
     ),
     url(experiencebackground.jpg) no-repeat center center / cover;
   /*background: linear-gradient(black, #0052cc) !important;
@@ -376,13 +377,14 @@ marker {
 .projectBody {
   position: relative;
   background: linear-gradient(
-      to top,
-      hsla(0, 0%, 0%, 0.65),
-      hsla(0, 0%, 26%, 1)
+      to bottom,
+      hsla(0, 0%, 0%, 0.95),
+      hsla(0, 0%, 26%, 0.65),
+      hsl(0, 0%, 100%, 0.95)
     ),
-    url(projectBackground.jpg) no-repeat center center / cover;
+    url(projectBackground4.jpg) no-repeat center center / cover;
   padding-bottom: 10%;
-  filter: grayscale(50%);
+  /*filter: grayscale(50%);*/
   height: cover;
 }
 .projectCard {
@@ -411,4 +413,30 @@ marker {
 }
 .projectTitle {
   padding-top: 10% !important;
+}
+
+/*CONTACT ME*/
+.contactBody {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.contactMeCardImage {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 120%;
+  border: 5px double rgba(164, 125, 30, 0.25);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.footer-style {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5em;
+  border: 2px solid #000;
+  border-top-left-radius: 3px;
+}
+
+.formMessage {
+  resize: none;
 }

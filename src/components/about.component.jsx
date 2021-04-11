@@ -54,7 +54,7 @@ const About = () => {
                                 <br /> <br />
                                     <Col className="d-flex justify-content-center flex-wrap">
                                         <div>
-                                        <a href="#">
+                                        <a href="#contact">
                                             <Button className="m-2" variant="outline-primary">
                                             Let's talk
                                             </Button>
