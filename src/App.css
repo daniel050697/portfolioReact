@@ -424,7 +424,7 @@ marker {
 .contactMeCardImage {
   margin-top: 5%;
   margin-bottom: 5%;
-  width: 120%;
+  width: 100%;
   border: 5px double rgba(164, 125, 30, 0.25);
   border-radius: 5px 5px 5px 5px;
 }
