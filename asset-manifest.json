@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolioReact/static/css/main.9155924b.chunk.css",
-    "main.js": "/portfolioReact/static/js/main.406dcfcb.chunk.js",
-    "main.js.map": "/portfolioReact/static/js/main.406dcfcb.chunk.js.map",
-    "runtime-main.js": "/portfolioReact/static/js/runtime-main.9361b371.js",
-    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.9361b371.js.map",
+    "main.js": "/portfolioReact/static/js/main.0a50193a.chunk.js",
+    "main.js.map": "/portfolioReact/static/js/main.0a50193a.chunk.js.map",
+    "runtime-main.js": "/portfolioReact/static/js/runtime-main.dcafa091.js",
+    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.dcafa091.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolioReact/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.13849ff4.chunk.js": "/portfolioReact/static/js/2.13849ff4.chunk.js",
-    "static/js/2.13849ff4.chunk.js.map": "/portfolioReact/static/js/2.13849ff4.chunk.js.map",
-    "static/js/3.b9e08ce5.chunk.js": "/portfolioReact/static/js/3.b9e08ce5.chunk.js",
-    "static/js/3.b9e08ce5.chunk.js.map": "/portfolioReact/static/js/3.b9e08ce5.chunk.js.map",
+    "static/js/2.3d38540c.chunk.js": "/portfolioReact/static/js/2.3d38540c.chunk.js",
+    "static/js/2.3d38540c.chunk.js.map": "/portfolioReact/static/js/2.3d38540c.chunk.js.map",
+    "static/js/3.cbae4cdd.chunk.js": "/portfolioReact/static/js/3.cbae4cdd.chunk.js",
+    "static/js/3.cbae4cdd.chunk.js.map": "/portfolioReact/static/js/3.cbae4cdd.chunk.js.map",
     "index.html": "/portfolioReact/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolioReact/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9155924b.chunk.css.map": "/portfolioReact/static/css/main.9155924b.chunk.css.map",
-    "static/js/2.13849ff4.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.13849ff4.chunk.js.LICENSE.txt",
+    "static/js/2.3d38540c.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.3d38540c.chunk.js.LICENSE.txt",
     "static/media/Avi.eb2ad8a0.png": "/portfolioReact/static/media/Avi.eb2ad8a0.png",
     "static/media/Davide.dcefdcbc.png": "/portfolioReact/static/media/Davide.dcefdcbc.png",
     "static/media/Edo3.0ecc32b8.png": "/portfolioReact/static/media/Edo3.0ecc32b8.png",
@@ -42,10 +42,10 @@
     "static/media/talendLogo.a6883d6b.png": "/portfolioReact/static/media/talendLogo.a6883d6b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9361b371.js",
+    "static/js/runtime-main.dcafa091.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.13849ff4.chunk.js",
+    "static/js/2.3d38540c.chunk.js",
     "static/css/main.9155924b.chunk.css",
-    "static/js/main.406dcfcb.chunk.js"
+    "static/js/main.0a50193a.chunk.js"
   ]
 }
