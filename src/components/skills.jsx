@@ -41,7 +41,7 @@ const skills = () => {
         {({ isVisible }) => {
     
               return (
-        <Fade right>
+        <Fade bottom>
             
             <div className="cardSkill">
                 <Zoom right cascade>
